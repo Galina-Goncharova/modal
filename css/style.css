@@ -24,3 +24,33 @@
 
   background-color: #fff;
 }
+
+.close-btn {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  display: block;
+  box-sizing: border-box;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.close-btn-thumb {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+}
+
+.icon-btn {
+  fill: currentColor;
+}
+
+.close-btn:hover {
+  background-color: #69bcf3;
+}
